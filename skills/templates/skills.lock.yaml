@@ -1,0 +1,10 @@
+# skills.lock.yaml (template for projects)
+skills:
+  - id: project_analyzer
+    source:
+      repo: https://github.com/SerjShepelevich/idea_base_seed.git
+      ref: main  # лучше tag или commit
+      path: skills/packs/project_analyzer
+    install:
+      mode: copy
+      target: tools/skills/project_analyzer

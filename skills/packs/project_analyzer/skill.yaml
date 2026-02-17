@@ -1,0 +1,16 @@
+id: project_analyzer
+version: 0.1.0
+status: mvp
+owner: serj
+description: >
+  MVP анализатора проекта: сканирует дерево, Python-символы (AST) и импорты,
+  генерирует JSON "архитектуру" для навигации и автоматизации.
+entrypoints:
+  - name: scan
+    command: python3 src/project_analyzer.py --root . --out plan/project_architecture.json
+contracts:
+  output_json: plan/project_architecture.json
+permissions:
+  default: read-only
+  network: false
+  system: false
