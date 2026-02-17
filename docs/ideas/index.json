@@ -1,0 +1,137 @@
+{
+  "ideas": [
+    {
+      "id": "IDEA-0001",
+      "title": "Один универсальный агент, много навыков",
+      "status": "validated",
+      "tags": [
+        "skills",
+        "architecture",
+        "scaling"
+      ],
+      "related_skills": [
+        "skill_registry",
+        "skillctl",
+        "project_analyzer"
+      ],
+      "source": "video_transcript.txt"
+    },
+    {
+      "id": "IDEA-0002",
+      "title": "Навык как организованная папка файлов",
+      "status": "validated",
+      "tags": [
+        "skills",
+        "packaging",
+        "procedural-knowledge"
+      ],
+      "related_skills": [
+        "template_skillpack"
+      ],
+      "source": "video_transcript.txt"
+    },
+    {
+      "id": "IDEA-0003",
+      "title": "Прозрачные скрипты вместо «чёрных ящиков»",
+      "status": "validated",
+      "tags": [
+        "transparency",
+        "debuggability",
+        "maintenance"
+      ],
+      "related_skills": [
+        "permissions_policy",
+        "verify_manifest"
+      ],
+      "source": "video_transcript.txt"
+    },
+    {
+      "id": "IDEA-0004",
+      "title": "Прогрессивное раскрытие контента навыка",
+      "status": "validated",
+      "tags": [
+        "context",
+        "scaling",
+        "ux"
+      ],
+      "related_skills": [
+        "registry_index",
+        "skill_metadata_schema"
+      ],
+      "source": "video_transcript.txt"
+    },
+    {
+      "id": "IDEA-0005",
+      "title": "Версионируемая экспертиза (git как память навыков)",
+      "status": "validated",
+      "tags": [
+        "git",
+        "reproducibility",
+        "governance"
+      ],
+      "related_skills": [
+        "release_manifest",
+        "sha256_policy",
+        "smoke_tests"
+      ],
+      "source": "video_transcript.txt"
+    },
+    {
+      "id": "IDEA-0006",
+      "title": "Три класса навыков: базовые, 3rd-party, корпоративные",
+      "status": "validated",
+      "tags": [
+        "taxonomy",
+        "ecosystem",
+        "governance"
+      ],
+      "related_skills": [
+        "registry_taxonomy"
+      ],
+      "source": "video_transcript.txt"
+    },
+    {
+      "id": "IDEA-0007",
+      "title": "Модульная архитектура агента: loop + runtime + MCP + skills",
+      "status": "validated",
+      "tags": [
+        "architecture",
+        "agent-systems",
+        "mcp"
+      ],
+      "related_skills": [
+        "runtime_sandbox",
+        "mcp_connectors",
+        "skillpacks"
+      ],
+      "source": "video_transcript.txt"
+    },
+    {
+      "id": "IDEA-0008",
+      "title": "Непрерывное улучшение через сохранение процедур",
+      "status": "validated",
+      "tags": [
+        "continuous-improvement",
+        "knowledge-capture"
+      ],
+      "related_skills": [
+        "skill_creator_meta",
+        "quality_gate"
+      ],
+      "source": "video_transcript.txt"
+    },
+    {
+      "id": "IDEA-0009",
+      "title": "CPU/OS/Apps: модель как CPU, runtime как ОС, навыки как приложения",
+      "status": "validated",
+      "tags": [
+        "metaphor",
+        "communication"
+      ],
+      "related_skills": [
+        "idea_base_explainer"
+      ],
+      "source": "video_transcript.txt"
+    }
+  ]
+}
