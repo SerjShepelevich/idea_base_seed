@@ -1,3 +1,4 @@
 .idea/
-.patch
-.zip
+*.patch
+*.zip
+.skills_cache/
